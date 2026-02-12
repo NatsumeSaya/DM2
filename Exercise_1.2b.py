@@ -1,7 +1,5 @@
 """
 Exercise 1.2b: PESP Timetabling Model with Extended Line 3900 (High-Frequency Service)
-Line 3900 is extended to Amsterdam, giving 6 trains/hour on Asd-Ut and Ut-Ehv corridors.
-Transfer constraints at Eindhoven are dropped.
 Synchronization is relaxed using PESP framework with appropriate bounds.
 """
 
