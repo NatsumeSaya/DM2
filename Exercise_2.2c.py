@@ -213,7 +213,7 @@ if model_comp.status == GRB.OPTIMAL:
                       f"{train_info[t]['seat_demand']:<8} {comp_str:<12} {p['capacity']:<10}")
 
 # ============================================================
-# 5. Basic Model (N_u,t formulation) for comparison
+# 5. Basic Model (N_u,t formulation) for comparison (Claude)
 # ============================================================
 print("\n" + "=" * 70)
 print("BASIC MODEL (N_u,t formulation) - for runtime comparison")
@@ -266,7 +266,7 @@ if model_basic.status == GRB.OPTIMAL:
     print(f"Runtime: {runtime_basic:.4f} seconds")
 
 # ============================================================
-# 6. Comparison
+# 6. Comparison (Claude)
 # ============================================================
 print("\n" + "=" * 70)
 print("COMPARISON OF FORMULATIONS")
